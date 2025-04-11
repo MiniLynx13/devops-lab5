@@ -21,6 +21,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install pytest
         pip install httpx
+        pip install fastapi
         
     - name: Run tests
       run: python -m pytest tests/
